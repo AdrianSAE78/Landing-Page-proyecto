@@ -135,8 +135,8 @@ header{
 }
 .boton-card{
     display: flex;
-    background-color: #9FCD9F;
-    color: #ffff;
+    background-color: #F7F7E8;
+    color: #9FCD9F;
     border: 2px solid transparent;
     border-radius: 0.4rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
@@ -150,7 +150,8 @@ header{
 }
 
 .boton-card:hover{
-    background-color: #8ab28a;
+    background-color: #99badc;
+    color: #F7F7E8;
     transition: 0.6s;
     box-shadow: none;
 }
@@ -209,6 +210,7 @@ footer{
     height: 60%;
     padding: 25px 25px 25px 25px;
     border-radius: 1rem;
+    background-color: #9FCD9F;
     box-shadow: 0px 0px 8px rgb(72, 72, 72);
 }
 
