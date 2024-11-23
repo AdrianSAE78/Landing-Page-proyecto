@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="marca">
+                <img class="marca-img" src="img/generic_logo.png" alt="NombreApp">
+                <span class="NombreApp">EcoJourney</span>
+            </div>
+            <nav class="nav">
+                <a class="nav-item" href="index.html">Inicio</a>
+                <a class="nav-item" href="index.html">Proyecto</a>
+                <a class="nav-item" href="contact.html">Contacto</a>
+            </nav>
+            <div class="nav-ingresar">
+                <button class="boton-transparente" type="button">Ingresar</button>
+            </div>
+        </div>
+    </header>
+    <section class="contacto">
+        <div class="contacto-contenedor">
+            <h2>Contacto</h2>
+            <p>¿Tienes dudas? Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+            
+            <form action="#" method="post" class="formulario-contacto">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+        <img src="img/contact_image.png" alt="Planeta Tierra">
+    </section>
+    <footer>
+        <div class="footer-social">
+            <h5 style="font-size: 1.2rem;">Encuentranos:</h5>
+            <div>
+                <a href="#"><i class='bx bxl-facebook-circle bx-md' style="color: white;"></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt bx-md' style="color: white;"></i></a>
+                <a href="#"><i class='bx bxl-linkedin bx-md' style="color: white;"></i></a>
+            </div>
+        </div>
+        <div class="footer-brand">
+            <img class="marca-img" src="img/generic_logo.png" alt="NombreApp">
+            <span class="NombreApp">EcoJourney</span>
+        </div>
+    </footer>
+</body>
+</html>

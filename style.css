@@ -206,11 +206,9 @@ footer{
     align-self: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     height: 60%;
     padding: 25px 25px 25px 25px;
-    border-radius: 1rem;
-    background-color: #9FCD9F;
     box-shadow: 0px 0px 8px rgb(72, 72, 72);
 }
 
@@ -308,4 +306,58 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.contenedor-llamado-accion{
+    width: 65%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+    background-color: #ffffff67;
+    box-shadow: 0px 0px 8px rgb(105, 105, 105);
+    border-radius: 15px;
+}
+
+.contenedor-llamado-accion img{
+    width: 650px;
+    filter: drop-shadow(0 0 10px rgb(105, 105, 105));
+    display: flex;
+    justify-self: center;
+}
+
+.card-llamado-accion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9FCD9F;
+    width: 200px;
+    height: 250px;
+    border-radius: 1rem;
+}
+
+.boton-contacto{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.225);
+    color: #ffff;
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 200px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.boton-contacto:hover{
+    background-color: #fff;
+    color: #9FCD9F;
+    border: 1px solid #9FCD9F;
+    transition-duration: 0.4s;
+    font-weight: bold;
 }
